@@ -1,0 +1,81 @@
+body{
+/*	background-color: black;
+*/}
+
+.col-sm-8{
+	padding: 0px;
+}
+
+.navbar{
+	  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.menu{
+	background-color: blue;
+	height: 500px;
+	margin-top: 25px;
+
+}
+.balk{
+	background-color: red;
+	height: 500px;
+	margin-top: 25px;
+}
+.main{
+	background-color:lavenderblush;
+	margin-top: 25px;
+	
+
+}
+.contacts{
+	background-color: grey;
+	height: 150px;
+}
+.info{
+	background-color: yellow;
+	height: 150px;
+}
+
+.footer{
+	background-color: coral;
+	height: 50px;
+}
+
+/*_________________________________________________________________________________navbar            */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.portefolio{
+	display: block;
+	width: 1000px;
+	height: 500px; 
+	margin-left: 0px;
+}
+/*___________________________________________________________________*/

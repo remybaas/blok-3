@@ -1,0 +1,39 @@
+body{
+  
+background-image: url(../image/amoled.jpg);
+}
+h2{
+  color: red;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.Me{
+    color: white;
+    z-index: 1; 
+    margin-top: 30%;
+    left: 0%;
+    transform: translate(100%, 0%);
+    width: 500px;
+}
+.fas , .far{
+margin-right: 18%;
+font-size: 50px;
+
+}
+.fa-graduation-cap{
+  margin-right: 0%;
+
+}
+.background{
+      background-color: #b993;
+
+}
+.far:hover {
+  color: #bbbb;
+}
+.fas:hover {
+  color: #bbbb;
+}
